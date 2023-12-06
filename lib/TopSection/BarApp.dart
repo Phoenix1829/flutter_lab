@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../Colors.dart';
+import '../Resources/Colors.dart';
 
 class BarApp extends StatelessWidget {
   const BarApp({super.key});
@@ -14,12 +14,12 @@ class BarApp extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           IconButton(
-            icon: Icon(Icons.close, color: ColorResources.coloricons),
+            icon: Icon(Icons.close, color: ColorResources.colorIcons),
             onPressed: () {
             },
           ),
           IconButton(
-            icon: Icon(Icons.exit_to_app, color: ColorResources.coloricons),
+            icon: Icon(Icons.exit_to_app, color: ColorResources.colorIcons),
             onPressed: () {
             },
           ),

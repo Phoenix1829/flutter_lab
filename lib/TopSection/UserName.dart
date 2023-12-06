@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../Fonts.dart';
-import '../Strings.dart';
+import '../Resources/Fonts.dart';
+import '../Resources/Strings.dart';
 
 class UserName extends StatelessWidget {
   const UserName({super.key});
@@ -10,9 +10,9 @@ class UserName extends StatelessWidget {
     return Material(child: Column(
       children: [
         Text(
-          StringResources.username,
+          StringResources.userName,
           textAlign: TextAlign.center,
-          style: FontResources.username,
+          style: FontResources.userName,
         ),
       ],
     ),);

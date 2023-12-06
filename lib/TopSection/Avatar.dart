@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../Resources/Images.dart';
+import '../Resources/Styles.dart';
 
 class Avatar extends StatelessWidget {
   const Avatar({super.key});
@@ -12,12 +14,15 @@ class Avatar extends StatelessWidget {
           height: 110,
           decoration: ShapeDecoration(
             image: const DecorationImage(
-              image: AssetImage('images/avatar.png'),
+              image: AssetImage(ImageResources.avatarImage),
               fit: BoxFit.fill,
             ),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(38),
             ),
+            shadows: [
+              StyleResources.avatarShadow
+            ],
           ),
         ),
       ],
