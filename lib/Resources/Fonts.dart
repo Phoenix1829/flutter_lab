@@ -11,7 +11,7 @@ class FontResources {
   );
 
   static const TextStyle cardTitle = TextStyle(
-    color: Colors.black,
+    color: ColorResources.colorCardTitleText,
     fontSize: 16,
     fontFamily: 'SF Pro Text',
     fontWeight: FontWeight.w500,
@@ -19,7 +19,7 @@ class FontResources {
   );
 
   static const TextStyle cardDate = TextStyle(
-    color: Colors.black,
+    color: ColorResources.colorCardDateText,
     fontSize: 14,
     fontFamily: 'SF Pro Text',
     fontWeight: FontWeight.w500,
@@ -27,7 +27,7 @@ class FontResources {
   );
 
   static TextStyle cardPrice = TextStyle(
-    color: Colors.black.withOpacity(0.5),
+    color: ColorResources.colorCardPriceText.withOpacity(0.5),
     fontSize: 14,
     fontFamily: 'SF Pro Text',
     fontWeight: FontWeight.w500,
@@ -35,7 +35,7 @@ class FontResources {
   );
 
   static TextStyle sectionTitle = const TextStyle(
-    color: Colors.black,
+    color: ColorResources.colorSectionTitleText,
     fontSize: 20,
     fontFamily: 'SF Pro Text',
     fontWeight: FontWeight.w700,
@@ -43,7 +43,7 @@ class FontResources {
   );
 
   static TextStyle sectionDescription = TextStyle(
-    color: Colors.black.withOpacity(0.5),
+    color: ColorResources.colorSectionDescriptionText.withOpacity(0.5),
     fontSize: 14,
     fontFamily: 'SF Pro Text',
     fontWeight: FontWeight.w500,
@@ -51,10 +51,25 @@ class FontResources {
   );
 
   static TextStyle pageName = const TextStyle(
-    color: Colors.black,
+    color: ColorResources.colorPageNameText,
     fontSize: 16,
     fontWeight: FontWeight.w500,
   );
 
+  static const TextStyle disclosureHeader = TextStyle(
+    color: ColorResources.colorDisclosureHeaderText,
+    fontSize: 16,
+    fontFamily: 'SF Pro Text',
+    fontWeight: FontWeight.w500,
+    letterSpacing: -0.40,
+  );
+
+  static TextStyle disclosureDescription = TextStyle(
+    color: ColorResources.colorDisclosureDescriptionText.withOpacity(0.5),
+    fontSize: 14,
+    fontFamily: 'SF Pro Text',
+    fontWeight: FontWeight.w500,
+    letterSpacing: -0.41,
+  );
 
 }

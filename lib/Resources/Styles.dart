@@ -30,4 +30,10 @@ class StyleResources {
     spreadRadius: 0
   );
 
+  static Divider divider = const Divider(
+    color: ColorResources.colorDivider,
+    height: 1,
+    indent: 82,
+  );
+
 }
