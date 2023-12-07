@@ -72,4 +72,13 @@ class FontResources {
     letterSpacing: -0.41,
   );
 
+  static TextStyle chipText = const TextStyle(
+    color: Colors.black,
+    fontSize: 14,
+    fontFamily: 'SF Pro Text',
+    fontWeight: FontWeight.w500,
+    height: 0.09,
+    letterSpacing: -0.41,
+  );
+
 }

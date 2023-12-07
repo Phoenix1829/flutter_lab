@@ -19,4 +19,13 @@ class StringResources {
   static const String transferHeader = 'Переводы без комиссии';
   static const String transferDescription = 'Показать остаток в этом месяце';
   static const String informationHeader = 'Информация о тарифах и лимитах';
+  static const String interestsHeader = 'Интересы';
+  static const String interestsDescription = 'Мы подбираем истории и предложения по темам, которые вам нравятся';
+  static const String chipFood = 'Еда';
+  static const String chipDev = 'Саморазвитие';
+  static const String chipTechnology = 'Технологии';
+  static const String chipHome = 'Дом';
+  static const String chipLeisure = 'Досуг';
+  static const String chipCare = 'Забота о себе';
+  static const String chipScience = 'Наука';
 }

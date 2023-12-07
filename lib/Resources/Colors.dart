@@ -27,4 +27,6 @@ class ColorResources {
   static const Color colorActivePageLine = Color.fromRGBO(6, 132, 65, 1.0);
 
   static const Color colorDivider = Color.fromRGBO(0, 0, 0, 0.12);
+
+  static const Color colorChipBackground = Color.fromRGBO(0, 0, 0, 0.08);
 }

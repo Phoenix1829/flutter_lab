@@ -13,7 +13,7 @@ class TopSection extends StatelessWidget {
       children: [
         SizedBox(
           width: 375,
-          height: 250,
+          height: 226,
           child: Stack(
             children: [
               Positioned(

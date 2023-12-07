@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Colors.dart';
+import 'Images.dart';
+import 'Strings.dart';
 
 class StyleResources {
   static BoxShadow avatarShadow = const BoxShadow(
@@ -36,4 +38,25 @@ class StyleResources {
     indent: 82,
   );
 
+  static ShapeDecoration chipShape = ShapeDecoration(
+    color: Colors.black.withOpacity(0.07),
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(16),
+    ),
+  );
+
+  static List<String> chipsList = [
+    StringResources.chipFood,
+    StringResources.chipDev,
+    StringResources.chipTechnology,
+    StringResources.chipHome,
+    StringResources.chipLeisure,
+    StringResources.chipCare,
+    StringResources.chipScience,
+  ];
+  static Map<String, bool> getTagsMap (){
+    return { for (var v in chipsList) v : false };
+  }
+  static Map<String, bool> chips = getTagsMap();
 }
+
